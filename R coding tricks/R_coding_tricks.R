@@ -9,3 +9,5 @@ plot(data$x, data$y, log="xy")
 
 # boxplots with variable widths
 boxplot(crim ~ rad, data=Boston, varwidth=TRUE)
+
+# plotting multiple scatterplots in the same plot
