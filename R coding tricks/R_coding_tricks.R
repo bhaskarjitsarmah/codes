@@ -3,3 +3,6 @@
 
 # computing correlation cofficient for non-missing observations
 cor(x, y, use="pairwise.complete.obs")
+
+# log transformed plots
+
