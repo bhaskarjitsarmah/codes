@@ -8,3 +8,4 @@ cor(x, y, use="pairwise.complete.obs")
 plot(data$x, data$y, log="xy")
 
 # boxplots with variable widths
+boxplot(crim ~ rad, data=Boston, varwidth=TRUE, log="y", las=1)
