@@ -5,4 +5,4 @@
 cor(x, y, use="pairwise.complete.obs")
 
 # log transformed plots
-
+plot(data$x, data$y, log="xy")
