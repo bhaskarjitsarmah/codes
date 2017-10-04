@@ -12,3 +12,6 @@ boxplot(crim ~ rad, data=Boston, varwidth=TRUE)
 
 # plotting multiple scatterplots in the same plot
 matplot(data$response, data[, c("explanatory_1", "explanatory_2", ...."explanatory_n")], xlab="", ylab="")
+
+# cross validation in R
+
