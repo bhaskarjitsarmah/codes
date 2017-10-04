@@ -25,3 +25,4 @@ model <- train(
 
 # plotting ROC curves
 library(caTools)
+colAUC(predicted_probabilities, actual_classes, plotROC = TRUE)
