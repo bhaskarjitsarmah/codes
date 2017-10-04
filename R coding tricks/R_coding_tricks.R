@@ -22,3 +22,5 @@ model <- train(
     verboseIter = TRUE
   )
 )
+
+# plotting ROC curves
