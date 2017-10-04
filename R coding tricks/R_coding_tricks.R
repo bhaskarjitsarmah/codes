@@ -14,4 +14,11 @@ boxplot(crim ~ rad, data=Boston, varwidth=TRUE)
 matplot(data$response, data[, c("explanatory_1", "explanatory_2", ...."explanatory_n")], xlab="", ylab="")
 
 # cross validation in R
-
+model <- train(
+  price ~., diamonds,
+  method = "lm",
+  trControl = trainControl(
+    method = "cv", number = 10,
+    verboseIter = TRUE
+  )
+)
