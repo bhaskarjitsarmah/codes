@@ -15,7 +15,7 @@ matplot(data$response, data[, c("explanatory_1", "explanatory_2", ...."explanato
 
 # cross validation in R
 model <- train(
-  price ~., diamonds,
+  y ~ x, dataset,
   method = "lm",
   trControl = trainControl(
     method = "cv", number = 10,
