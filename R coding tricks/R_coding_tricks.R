@@ -24,3 +24,4 @@ model <- train(
 )
 
 # plotting ROC curves
+library(caTools)
